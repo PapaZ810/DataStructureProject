@@ -7,3 +7,8 @@
 //
 
 #include "Controller.hpp"
+
+void Controller :: start()
+{
+    cout << "Welcome to App." << endl;
+}
