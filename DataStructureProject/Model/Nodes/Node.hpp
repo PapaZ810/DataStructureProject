@@ -11,14 +11,15 @@
 
 #include <assert.h>
 
-template <class type>
-class node
+template <class Type>
+class Node
 {
 private:
     Type data;
 public:
+    Node();
     Node(Type data);
-    type getData();
+    Type getData();
     void setData(Type data);
 };
 
@@ -31,13 +32,23 @@ Node<Type> :: Node(Type data)
 template <class Type>
 Type Node<Type> :: getData()
 {
-    return data:
+    return data;
 }
 
 template <class Type>
-void Node<Type> :: setData(type data)
+void Node<Type> :: setData(Type data)
 {
    this->data = data;
 }
+
+template <class Type>
+Node<Type> :: Node()
+{}
+
+//template <class Type>
+//Node<Type> :: Node (Type data)
+//{
+//
+//}
 
 #endif /* Node_h */

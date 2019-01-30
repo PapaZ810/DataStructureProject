@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -29,6 +29,7 @@
 		CD0BB3A221FF8BD20080FFA3 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		CD0BB3A321FF8BD20080FFA3 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		CD0BB3A521FF91370080FFA3 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		CD33EB262202278E004B510E /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +73,8 @@
 		CD0BB39C21FF8B750080FFA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CD0BB3A521FF91370080FFA3 /* Node.hpp */,
+				CD33EB24220226E6004B510E /* Linear */,
+				CD33EB25220226F2004B510E /* Nodes */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +101,22 @@
 			children = (
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD33EB24220226E6004B510E /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Linear;
+			sourceTree = "<group>";
+		};
+		CD33EB25220226F2004B510E /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				CD0BB3A521FF91370080FFA3 /* Node.hpp */,
+				CD33EB262202278E004B510E /* LinearNode.hpp */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +154,7 @@
 				};
 			};
 			buildConfigurationList = CD0BB38D21FF8AF90080FFA3 /* Build configuration list for PBXProject "DataStructureProject" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
