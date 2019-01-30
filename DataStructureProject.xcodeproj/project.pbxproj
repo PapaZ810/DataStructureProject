@@ -30,6 +30,7 @@
 		CD0BB3A321FF8BD20080FFA3 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		CD0BB3A521FF91370080FFA3 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		CD33EB262202278E004B510E /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		CD33EB272202394E004B510E /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +107,7 @@
 		CD33EB24220226E6004B510E /* Linear */ = {
 			isa = PBXGroup;
 			children = (
+				CD33EB272202394E004B510E /* Array.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
