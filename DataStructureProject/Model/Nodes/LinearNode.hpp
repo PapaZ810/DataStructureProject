@@ -22,6 +22,7 @@ public:
     LinearNode(Type data, LinearNode<Type> * next);
     LinearNode<Type> * getNext();
     void setNext(LinearNode<Type> * next);
+//    LinearNode<Type> * getNextNode();
 };
 
 template <class Type>

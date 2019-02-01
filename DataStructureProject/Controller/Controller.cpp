@@ -18,7 +18,7 @@ void Controller :: usingNodes()
 {
     LinearNode<int> mine(5);
     LinearNode<string> wordHolder("words can be stored too");
-    cout << mine.getData() << endl;
+    cout << mine.getData() << endl ;
     cout << wordHolder.getData() << endl;
     wordHolder.setData("replaced text");
     cout << wordHolder.getData() << endl;
