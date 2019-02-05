@@ -28,10 +28,10 @@ void Controller :: usingNodes()
 
 void testFiles()
 {
-    vector<CrimeData> crimeVector;
+    vector<CrimeData> Crime = FileController :: readCrimeDataToVector("/Users/zdur0324/Documents/C++/DataStructureProject/DataStructureProject/Resources/crime.csv");
     
     for (int i = 234; i < 256; i++)
     {
-        cout << i << ": contents are : " << crimeVector[i] << endl;
+        cout << i << ": contents are : " << Crime[i] << endl;
     }
 }
