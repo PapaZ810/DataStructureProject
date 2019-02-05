@@ -7,11 +7,19 @@
 //
 
 #include "Controller.hpp"
+#include "FileController.hpp"
 
 void Controller :: start()
 {
     cout << "Welcome to App." << endl;
     usingNodes();
+    
+    vector<CrimeData> crimeVector;
+    
+    for (int i = 234; i < 256; i++)
+    {
+        cout << i << ": contents are : " << crimeVector[i] << endl;
+    }
 }
 
 void Controller :: usingNodes()
