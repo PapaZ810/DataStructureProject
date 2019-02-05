@@ -16,7 +16,7 @@
 
 using namespace std;
 
-void TextFiles();
+void testFiles();
 
 class Controller
 {
@@ -25,5 +25,7 @@ private:
 public:
     void start();
 };
+
+
 
 #endif /* Controller_hpp */

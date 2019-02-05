@@ -13,13 +13,7 @@ void Controller :: start()
 {
     cout << "Welcome to App." << endl;
     usingNodes();
-    
-    vector<CrimeData> crimeVector;
-    
-    for (int i = 234; i < 256; i++)
-    {
-        cout << i << ": contents are : " << crimeVector[i] << endl;
-    }
+    testFiles();
 }
 
 void Controller :: usingNodes()
@@ -30,4 +24,14 @@ void Controller :: usingNodes()
     cout << wordHolder.getData() << endl;
     wordHolder.setData("replaced text");
     cout << wordHolder.getData() << endl;
+}
+
+void testFiles()
+{
+    vector<CrimeData> crimeVector;
+    
+    for (int i = 234; i < 256; i++)
+    {
+        cout << i << ": contents are : " << crimeVector[i] << endl;
+    }
 }

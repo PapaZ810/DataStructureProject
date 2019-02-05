@@ -37,6 +37,7 @@
 		CD053CFF220A1A2B00F97118 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
 		CD053D01220A1A7400F97118 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
 		CD053D03220A1B8400F97118 /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
+		CD053D04220A23D900F97118 /* music.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = music.csv; sourceTree = "<group>"; };
 		CD0BB39221FF8AF90080FFA3 /* DataStructureProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructureProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD0BB3A021FF8BC70080FFA3 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		CD0BB3A221FF8BD20080FFA3 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 		CD0BB39F21FF8B820080FFA3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CD053D04220A23D900F97118 /* music.csv */,
 				CD053D03220A1B8400F97118 /* Music.hpp */,
 				CD053D01220A1A7400F97118 /* Music.cpp */,
 				CD053CFE220A1A2B00F97118 /* CrimeData.cpp */,
