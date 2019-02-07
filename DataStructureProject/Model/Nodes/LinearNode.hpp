@@ -20,7 +20,7 @@ public:
     LinearNode();
     LinearNode(Type data);
     LinearNode(Type data, LinearNode<Type> * next);
-    LinearNode<Type> * getNext();
+    LinearNode<Type> * getNextNode();
     void setNext(LinearNode<Type> * next);
 //    LinearNode<Type> * getNextNode();
 };
@@ -42,7 +42,7 @@ LinearNode<Type> :: LinearNode(Type data, LinearNode<Type> * next) : Node<Type>(
 }
 
 template <class Type>
-LinearNode<Type> * LinearNode<Type> :: getNext()
+LinearNode<Type> * LinearNode<Type> :: getNextNode()
 {
     return this->next;
 }

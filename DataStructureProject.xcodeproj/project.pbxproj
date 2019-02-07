@@ -46,6 +46,7 @@
 		CD876643220CB09B002E6541 /* Music.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
 		CD876644220CB909002E6541 /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
 		CD876646220CBA80002E6541 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		CD876647220CC6C4002E6541 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +143,7 @@
 			children = (
 				CD33EB272202394E004B510E /* Array.hpp */,
 				CD876646220CBA80002E6541 /* List.hpp */,
+				CD876647220CC6C4002E6541 /* LinkedList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
