@@ -27,7 +27,7 @@ public:
     static vector<Music> musicDataToVector(string filename);
     
     static LinkedList<CrimeData> readDataToList(string filename);
-    static LinkedList<Music> musicDataToList(string filename);
+    static LinkedList<Music> musicDataToList(string filename);
     
     static Array<Music> musicDataToArray(string filename);
     
