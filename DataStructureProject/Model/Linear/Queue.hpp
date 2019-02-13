@@ -18,10 +18,10 @@ template <class Type>
 class Queue : public LinkedList<Type>
 {
 public:
-    Queue;
-    ~Queue;
+    Queue();
+    ~Queue();
     
-    void enqueue
+    void enqueue(Type data);
     Type dequeue();
     Type peek();
     void clear();
@@ -33,15 +33,15 @@ public:
 };
 
 template <class Type>
-Queue<Type> :: Queue() : LinkedList();
+Queue<Type> :: Queue() : LinkedList<Type>()
 {}
 
 template <class Type>
 Queue<Type> :: ~Queue()
 {
-    for(LinearNode<Type> * removed = this->front; removed != nullptr; removed this->front)
+    for(LinearNode<Type> * removed = this->front; removed != nullptr; removed = this->front)
     {
-        this->front = removedgetNextNode();
+        this->front = removed->getNextNode();
         delete removed;
     }
 }
@@ -49,7 +49,7 @@ Queue<Type> :: ~Queue()
 template <class Type>
 void Queue<Type> :: enqueue(Type item)
 {
-    LinearNode<Type> * added = new LinearNode<Type>(item)
+    LinearNode<Type> * added = new LinearNode<Type>(item);
     
     if(this->size == 0)
     {

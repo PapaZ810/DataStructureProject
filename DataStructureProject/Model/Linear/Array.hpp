@@ -23,7 +23,7 @@ private:
 public:
     Array<Type>(int size);
     
-    Array<Type(const Array<type & toCopy);
+    Array<Type>(const Array<Type> & toCopy);
     ~Array<Type>();
     
     Array<Type> & operator = (const Array<Type> & toReplace);
@@ -72,7 +72,7 @@ Array<Type> & Array<Type> :: operator = (const Array<Type> & toAssign)
         {
             delete [] internalArray;
             size = toAssign.getSize();
-            intrernalArray = new Type [size];
+            internalArray = new Type [size];
         }
             
         for (int index = 0; index < size; index++)
@@ -106,7 +106,7 @@ int Array<Type> :: getSize() const
 template <class Type>
 Type Array<Type> :: getFromIndex(int index)
 {
-    assert(index >= 0 & index < size);
+    assert(index >= 0 && index < size);
         
     Type value = internalArray[index];
         

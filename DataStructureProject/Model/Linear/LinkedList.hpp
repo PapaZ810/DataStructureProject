@@ -43,7 +43,7 @@ LinkedList<Type> :: LinkedList()
 }
 
 template <class Type>
-LinkedList<Type> :: ~LinkedList()\
+LinkedList<Type> :: ~LinkedList()
 {
     LinkedList<Type> * destroyStructure = front;
     while (front != nullptr)
@@ -57,7 +57,7 @@ LinkedList<Type> :: ~LinkedList()\
 template <class Type>
 void LinkedList<Type> :: add(Type item)
 {
-    LinkedList<Type> * newData =new LinkedList<Type>(item)
+    LinkedList<Type> * newData = new LinkedList<Type>(item);
     
     if(this->size == 0)
     {
@@ -85,7 +85,7 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
         LinkedList<Type> :: toBeAdded = new LinkedList<Type>(item);
         if(index == 0)
         {
-            tobeAdded->setNExtNode(front);
+            toBeAdded->setNextNode(front);
             front = toBeAdded;
         }
         else
@@ -98,7 +98,7 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
                 current = current->getNextNode();
             }
             previous->setNextNode(toBeAdded);
-            toBeAdded->SetNExtNode(current);
+            toBeAdded->SetNextNode(current);
         }
         this->size++;
     }
@@ -166,7 +166,7 @@ Type LinkedList<Type> :: remove(int index)
 }
 
 template <class Type>
-LinearNode<Type> * LinkedList<Type> :: getEnd();
+LinearNode<Type> * LinkedList<Type> :: getEnd()
 {
     return this->end;
 }

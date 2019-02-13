@@ -9,7 +9,7 @@
 #ifndef Stack_h
 #define Stack_h
 
-#incude "LinkedList.hpp"
+#include "LinkedList.hpp"
 
 template <class Type>
 class Stack : public LinkedList<Type>
@@ -26,7 +26,7 @@ public:
     void addAtIndex(int index, Type item);
     Type getFromIndex(int index);
     Type remove(int index);
-}
+};
 
 template <class Type>
 Stack<Type> :: Stack() : LinkedList<Type>()
@@ -44,7 +44,7 @@ Stack<Type> :: ~Stack()
 template <class Type>
 void Stack<Type> :: push(Type data)
 {
-    LinearNode<Type> * add = new LinearNode<Type>(data)
+    LinearNode<Type> * add = new LinearNode<Type>(data);
     
     if(this->size == 0)
     {
@@ -77,8 +77,8 @@ Type Stack<Type> :: pop()
     assert (this->size > 0);
     Type removed = this->front->getData();
     
-    LinearNode<Type> * removedNode->getNextNode();
-    this->front = remocedNode->getNextNode();
+    LinearNode<Type> * removedNode = this->getNextNode();
+    this->front = removedNode->getNextNode();
     delete removedNode;
     
     this->size--;
