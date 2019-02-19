@@ -18,7 +18,7 @@ private:
     Type data;
 public:
     Node();
-    Node(Type data);
+    Node(Type CrimeData);
     Type getData();
     void setData(Type data);
 };

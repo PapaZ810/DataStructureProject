@@ -32,7 +32,9 @@ void LinearTester :: testVsSTL()
     LinkedList<Music> musicList = FileController :: musicDataToList("/Users/zdur0324/Documents/C++/DataStructureProject/DataStructureProject/Resources/music.csv");
     musicOOP.stopTimer();
     
+    cout << "This is the STL read time" << endl;
     musicSTL.displayInformation();
+    cout << "This is the OOP node read time" << endl;
     musicOOP.displayInformation();
     
     cout << "A difference of: " << musicOOP.getTimeInMicroseconds() - musicSTL.getTimeInMicroseconds() << "microseconds." << endl;

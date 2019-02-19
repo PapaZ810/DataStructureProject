@@ -35,3 +35,9 @@ void testFiles()
         cout << i << ": contents are : " << Crime[i] << endl;
     }
 }
+
+void Controller :: testLinear()
+{
+    LinearTester lookieHere;
+    lookieHere.testVsSTL();
+}
