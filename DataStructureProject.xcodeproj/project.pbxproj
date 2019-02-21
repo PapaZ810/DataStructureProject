@@ -53,6 +53,7 @@
 		CD876646220CBA80002E6541 /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		CD876647220CC6C4002E6541 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		CD9A6599221F26CA0050A8E0 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
+		CD9A659A221F315B0050A8E0 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +154,7 @@
 				CD876647220CC6C4002E6541 /* LinkedList.hpp */,
 				CD7A194222120D51005519FB /* Queue.hpp */,
 				CD7A1944221212FE005519FB /* Stack.hpp */,
+				CD9A659A221F315B0050A8E0 /* CircularList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";

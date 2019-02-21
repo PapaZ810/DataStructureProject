@@ -6,8 +6,8 @@
 //  Copyright © 2019 CTEC. All rights reserved.
 //
 
-#ifndef LinearNode_h
-#define LinearNode_h
+#ifndef LinearNode_hpp
+#define LinearNode_hpp
 
 #include "Node.hpp"
 
@@ -53,4 +53,4 @@ void LinearNode<Type> :: setNext(LinearNode<Type> * next)
     this->next = next;
 }
 
-#endif /* LinearNode_h */
+#endif /* LinearNode_hpp */

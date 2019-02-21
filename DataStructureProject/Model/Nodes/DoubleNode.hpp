@@ -8,8 +8,8 @@
 
 #include "Node.hpp"
 
-#ifndef DoubleNode_h
-#define DoubleNode_h
+#ifndef DoubleNode_hpp
+#define DoubleNode_hpp
 
 template <class Type>
 class DoubleNode : public Node<Type>
@@ -74,4 +74,4 @@ DoubleNode<Type> * DoubleNode<Type> :: getNext()
     return next;
 }
 
-#endif /* DoubleNode_h */
+#endif /* DoubleNode_hpp */
