@@ -33,7 +33,7 @@ public:
 };
 
 template <class Type>
-CircularList<TYpe :: CircularList()
+CircularList<Type> :: CircularList()
 {
     front = nullptr;
     end = nullptr;
