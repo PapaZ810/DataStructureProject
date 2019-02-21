@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>10</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1250</x>
-      <y>130</y>
-      <w>190</w>
-      <h>100</h>
+      <x>810</x>
+      <y>117</y>
+      <w>171</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Node&lt;Type&gt;
 --
@@ -22,10 +22,10 @@ bg=cyan</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1250</x>
+      <x>648</x>
       <y>0</y>
-      <w>440</w>
-      <h>110</h>
+      <w>396</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>LinearNode&lt;Type&gt;
 --
@@ -42,10 +42,10 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1330</x>
-      <y>100</y>
-      <w>30</w>
-      <h>50</h>
+      <x>882</x>
+      <y>90</y>
+      <w>27</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -53,10 +53,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1700</x>
+      <x>441</x>
       <y>0</y>
-      <w>220</w>
-      <h>180</h>
+      <w>198</w>
+      <h>162</h>
     </coordinates>
     <panel_attributes>Array&lt;Type&gt;
 --
@@ -77,10 +77,10 @@ bg=gray
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1230</x>
-      <y>260</y>
-      <w>220</w>
-      <h>190</h>
+      <x>792</x>
+      <y>234</y>
+      <w>198</w>
+      <h>171</h>
     </coordinates>
     <panel_attributes>/List&lt;Type&gt;/
 --
@@ -101,10 +101,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1420</x>
-      <y>220</y>
-      <w>30</w>
-      <h>60</h>
+      <x>963</x>
+      <y>198</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -112,10 +112,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1470</x>
-      <y>690</y>
-      <w>250</w>
-      <h>320</h>
+      <x>1008</x>
+      <y>621</y>
+      <w>225</w>
+      <h>288</h>
     </coordinates>
     <panel_attributes>Stack&lt;Type&gt;
 --
@@ -143,10 +143,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>930</x>
-      <y>670</y>
-      <w>250</w>
-      <h>340</h>
+      <x>522</x>
+      <y>603</y>
+      <w>225</w>
+      <h>306</h>
     </coordinates>
     <panel_attributes>Queue&lt;Type&gt;
 --
@@ -180,10 +180,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1400</x>
-      <y>720</y>
-      <w>30</w>
-      <h>60</h>
+      <x>945</x>
+      <y>648</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -191,10 +191,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1220</x>
-      <y>720</y>
-      <w>30</w>
-      <h>60</h>
+      <x>783</x>
+      <y>648</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -202,10 +202,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1460</x>
-      <y>260</y>
-      <w>240</w>
-      <h>160</h>
+      <x>999</x>
+      <y>234</y>
+      <w>216</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>CrimeData
 --
@@ -223,10 +223,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1460</x>
-      <y>430</y>
-      <w>240</w>
-      <h>160</h>
+      <x>999</x>
+      <y>387</y>
+      <w>216</w>
+      <h>144</h>
     </coordinates>
     <panel_attributes>Music
 --
@@ -244,10 +244,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1200</x>
-      <y>460</y>
-      <w>250</w>
-      <h>270</h>
+      <x>765</x>
+      <y>414</y>
+      <w>225</w>
+      <h>243</h>
     </coordinates>
     <panel_attributes>LinkedList&lt;Type&gt;
 --
@@ -272,10 +272,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1450</x>
-      <y>640</y>
-      <w>30</w>
-      <h>140</h>
+      <x>990</x>
+      <y>576</y>
+      <w>27</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
@@ -283,10 +283,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1580</x>
-      <y>640</y>
-      <w>30</w>
-      <h>70</h>
+      <x>1107</x>
+      <y>576</y>
+      <w>27</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
@@ -294,10 +294,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1450</x>
-      <y>640</y>
-      <w>160</w>
-      <h>30</h>
+      <x>990</x>
+      <y>576</y>
+      <w>144</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
@@ -305,10 +305,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1400</x>
-      <y>750</y>
-      <w>80</w>
-      <h>30</h>
+      <x>945</x>
+      <y>675</y>
+      <w>72</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
@@ -316,10 +316,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1180</x>
-      <y>750</y>
-      <w>70</w>
-      <h>30</h>
+      <x>747</x>
+      <y>675</y>
+      <w>63</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
@@ -327,10 +327,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1180</x>
-      <y>630</y>
-      <w>30</w>
-      <h>150</h>
+      <x>747</x>
+      <y>567</y>
+      <w>27</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
@@ -338,10 +338,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1050</x>
-      <y>630</y>
-      <w>160</w>
-      <h>30</h>
+      <x>630</x>
+      <y>567</y>
+      <w>144</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
@@ -349,10 +349,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1050</x>
-      <y>630</y>
-      <w>30</w>
-      <h>60</h>
+      <x>630</x>
+      <y>567</y>
+      <w>27</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -360,10 +360,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>770</x>
-      <y>660</y>
-      <w>180</w>
-      <h>30</h>
+      <x>378</x>
+      <y>594</y>
+      <w>162</w>
+      <h>27</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
@@ -371,10 +371,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>570</x>
-      <y>660</y>
-      <w>210</w>
-      <h>90</h>
+      <x>198</x>
+      <y>594</y>
+      <w>189</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>LinearTester
 --
@@ -385,10 +385,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>350</x>
-      <y>660</y>
-      <w>210</w>
-      <h>90</h>
+      <x>0</x>
+      <y>594</y>
+      <w>189</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>TreeTester
 --
@@ -399,10 +399,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>350</x>
-      <y>760</y>
-      <w>210</w>
-      <h>90</h>
+      <x>0</x>
+      <y>684</y>
+      <w>189</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>GraphTester
 --
@@ -413,10 +413,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>570</x>
-      <y>760</y>
-      <w>210</w>
-      <h>90</h>
+      <x>198</x>
+      <y>684</y>
+      <w>189</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>HashableTester
 --
@@ -427,14 +427,37 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>570</x>
-      <y>860</y>
-      <w>210</w>
-      <h>90</h>
+      <x>198</x>
+      <y>774</y>
+      <w>189</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>AlgorithmTester
 --
 </panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>369</x>
+      <y>234</y>
+      <w>414</w>
+      <h>171</h>
+    </coordinates>
+    <panel_attributes>DoubleNode&lt;Type&gt;
+--
+- nextNode : DoubleNode&lt;Type&gt;*
+- prevNode : DoubleNode&lt;TYpe&gt;*
+--
++ DoubleNode() : constructor
++ DoubleNode(Type) : contructor
++ DoubleNode(Type; DoubleNode&lt;Type&gt;* ; DoubleNode&lt;Type&gt;*)
+
++ getNextNode() : DoubleNode&lt;Type&gt;*
++ setNextNode(DoubleNode&lt;Type&gt; *) : void
++ getPreviousNode() : DoubleNode&lt;Type&gt; *
++ setPreviousNode(DoubleNode&lt;Type&gt; *) : void </panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
