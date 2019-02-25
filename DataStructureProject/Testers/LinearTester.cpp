@@ -61,7 +61,8 @@ void LinearTester :: testVsSTL()
     
     cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTimerSTL.getTimeInMicroseconds() << "microseconds." << endl;
     
-    
+    crimeTimerOOP.resetTimer();
+    crimeTimerSTL.resetTimer();
 }
 
 void LinearTester :: testVsStack()
