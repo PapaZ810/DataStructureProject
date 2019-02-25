@@ -43,6 +43,25 @@ void LinearTester :: testVsSTL()
     crimeTimerSTL.resetTimer();
     musicOOP.resetTimer();
     musicSTL.resetTimer();
+    
+    int randomIndex = rand() % moreCrimes.getSize();
+    
+    crimeTimerSTL.startTimer();
+    crimes[randomIndex];
+    crimeTimerSTL.stopTimer();
+    
+    crimeTimerOOP.startTimer();
+    moreCrimes.getFromIndex(randomIndex);
+    crimeTimerOOP.stopTimer();
+    
+    cout << "This is the STL retrieval time: " << endl;
+    crimeTimerSTL.displayInformation();
+    cout << "This is the OOP node retrieval time" << endl;
+    crimeTimerOOP.displayInformation();
+    
+    cout << "A difference of: " << crimeTimerOOP.getTimeInMicroseconds() - crimeTimerSTL.getTimeInMicroseconds() << "microseconds." << endl;
+    
+    
 }
 
 void LinearTester :: testVsStack()
