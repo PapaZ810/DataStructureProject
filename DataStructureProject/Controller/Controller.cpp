@@ -11,8 +11,8 @@
 
 void Controller :: start()
 {
-    //cout << "Welcome to App." << endl;
-    //usingNodes();
+    cout << "Welcome to App." << endl;
+    usingNodes();
     testFiles();
 }
 

@@ -62,7 +62,7 @@ DoubleNode<Type> * CircularList<Type> :: findNode(int index)
     if(index < this->size / 2)
     {
         nodeToFind = this->front;
-        for(int position = 0; position < index; position ++)
+        for(int position = 0; position < index; position++)
         {
             nodeToFind = nodeToFind->getPrevious();
         }
@@ -86,13 +86,14 @@ void CircularList<Type> :: add(Type item)
     {
         addedNode = new DoubleNode<Type>(item);
         this->front = addedNode;
+        this->end = addedNode;
+        this->end->setNext(addedNode);
     }
     else
     {
         addedNode = new DoubleNode<Type>(item, this->end, this->front);
     }
     
-    this->end->setNext(addedNode);
     this->front->setPrevious(addedNode);
     this->end = addedNode;
     this->size++;
