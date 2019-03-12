@@ -45,7 +45,7 @@ LinkedList<Type> :: LinkedList()
 template <class Type>
 LinkedList<Type> :: ~LinkedList()
 {
-    LinkedList<Type> * destroyStructure = front;
+    LinearNode<Type> * destroyStructure = front;
     while (front != nullptr)
     {
         front = destroyStructure->getNextNode();
@@ -57,7 +57,7 @@ LinkedList<Type> :: ~LinkedList()
 template <class Type>
 void LinkedList<Type> :: add(Type item)
 {
-    LinkedList<Type> * newData = new LinkedList<Type>(item);
+    LinearNode<Type> * newData = new LinearNode<Type>(item);
     
     if(this->size == 0)
     {
@@ -82,7 +82,7 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
     }
     else
     {
-        LinkedList<Type> * toBeAdded = new LinkedList<Type>(item);
+        LinearNode<Type> * toBeAdded = new LinearNode<Type>(item);
         if(index == 0)
         {
             toBeAdded->setNextNode(front);
@@ -90,15 +90,15 @@ void LinkedList<Type> :: addAtIndex(int index, Type item)
         }
         else
         {
-            LinkedList<Type> * previous = nullptr;
-            LinkedList<Type> * current = front;
+            LinearNode<Type> * previous = nullptr;
+            LinearNode<Type> * current = front;
             for(int position = 0; position < index; position ++)
             {
                 previous = current;
                 current = current->getNextNode();
             }
             previous->setNextNode(toBeAdded);
-            toBeAdded->SetNextNode(current);
+            toBeAdded->setNextNode(current);
         }
         this->size++;
     }
@@ -110,7 +110,7 @@ Type LinkedList<Type> :: getFromIndex(int index)
     assert(index >= 0 && index < this->size);
     Type data;
     
-    LinkedList<Type> * current = front;
+    LinearNode<Type> * current = front;
     
     for(int position = 0; position < index; position++)
     {
@@ -126,9 +126,9 @@ Type LinkedList<Type> :: remove(int index)
 {
     assert(index >= 0 && index < this->size);
     
-    LinkedList<Type> * current = front;
-    LinkedList<Type> * toBeRemoved = nullptr;
-    LinkedList<Type> * previous = nullptr;
+    LinearNode<Type> * current = front;
+    LinearNode<Type> * toBeRemoved = nullptr;
+    LinearNode<Type> * previous = nullptr;
     
     Type removedData;
     
