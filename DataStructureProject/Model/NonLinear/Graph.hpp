@@ -34,7 +34,7 @@ public:
     //Connect vertices
     void addEdge(int source, int target);
     void addEdgeUndirected(int source, int target);
-    void addEdeCost(int source. int target, int cost);
+    void addEdgeCost(int source. int target, int cost);
     //Disconnect vertices
     void removeEdge(int source, int target);
     void removeEdgeUndirected(int source, int target);

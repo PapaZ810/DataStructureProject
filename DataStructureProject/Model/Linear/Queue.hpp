@@ -81,14 +81,14 @@ Type Queue<Type> :: dequeue()
 {
     assert(this->size > 0);
     
-    Type returned = this->fronty->getData();
+    Type returned = this->front->getData();
     
     LinearNode<Type> * removed = this->front;
     this->front = removed->getNextNode();
     
     delete remove;
     
-    this->size =this->size - 1;
+    this->size = this->size - 1;
     
     return returned;
 }

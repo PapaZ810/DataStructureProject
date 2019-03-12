@@ -24,16 +24,28 @@ void Controller :: usingNodes()
     cout << wordHolder.getData() << endl;
     wordHolder.setData("replaced text");
     cout << wordHolder.getData() << endl;
+    
 }
 
 void testFiles()
 {
-    vector<CrimeData> Crime = FileController :: readCrimeDataToVector("/Users/zdur0324/Documents/C++/DataStructureProject/DataStructureProject/Resources/crime.csv");
+    LinkedList<CrimeData> Crime = FileController :: readDataToList("/Users/zdur0324/Documents/C++/DataStructureProject/DataStructureProject/Resources/crime.csv");
     
     for (int i = 234; i < 256; i++)
     {
-        cout << i << ": contents are : " << Crime[i] << endl;
+        cout << i << ": contents are : " << Crime.getFromIndex(i) << endl;
     }
+    
+    LinkedList<int> intList;
+    intList.add(1);
+    intList.add(2);
+    cout << intList.getFromIndex(0) << intList.getFromIndex(1) << "yeet" << endl;
+    
+    
+    LinkedList<string> wordList;
+    wordList.add("yeet");
+    wordList.add("bean");
+    cout << wordList.getFromIndex(1) << wordList.getFromIndex(0) << endl;
 }
 
 void Controller :: testLinear()
