@@ -276,7 +276,7 @@ int Graph<Type> :: costTraversal(Graph<Type> * curretGraph, int start)
                 vertexQueue.push(*setIterator);
             }
         }
-    }    
+    }
     return cost;
 }
 
