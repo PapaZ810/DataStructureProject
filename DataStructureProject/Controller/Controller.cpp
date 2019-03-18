@@ -11,9 +11,10 @@
 
 void Controller :: start()
 {
-    cout << "Welcome to App." << endl;
-    usingNodes();
-    testFiles();
+//    cout << "Welcome to App." << endl;
+//    usingNodes();
+//    testFiles();
+    testGraph();
 }
 
 void Controller :: usingNodes()
@@ -52,4 +53,10 @@ void Controller :: testLinear()
 {
     LinearTester lookieHere;
     lookieHere.testVsSTL();
+}
+
+void Controller :: testGraph()
+{
+    GraphTester lokiher;
+    lokiher.testGraphs();
 }

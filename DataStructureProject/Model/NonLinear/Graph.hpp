@@ -203,10 +203,10 @@ std::set<int> Graph<Type> :: neighbors(int vertex) const
 template <class Type>
 void Graph<Type> :: depthFirstTraversal(Graph<Type> & currentGraph, int vertex)
 {
-    bool visitedVertices[MAXIMUM]
+    bool visitedVertices[MAXIMUM];
     assert(vertex < currentGraph.size());
     std::fill_n(visitedVertices, currentGraph.size(), false);
-    ddepthFirstTraversal(currentGraph, vertex, visitedVertices);
+    depthFirstTraversal(currentGraph, vertex, visitedVertices);
 }
 
 template <class Type>
@@ -248,7 +248,7 @@ void Graph<Type> :: breadthFirstTraversal(Graph<Type> & currentGraph, int vertex
         {
             if(!visited[*setIterator])
             {
-                visited[*setIterator];
+//                visited[*setIterator];
                 cout << currentGraph[*setIterator] << endl;
                 vertexQueue.push(*setIterator);
             }

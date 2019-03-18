@@ -7,6 +7,7 @@
 //
 
 #include "GraphTester.hpp"
+#include <iostream>
 
 void GraphTester :: setup()
 {
@@ -126,5 +127,28 @@ void GraphTester :: setup()
     puzzle.addEdgeCost(12, 22, 13);
     puzzle.addEdgeCost(13, 15, 88);
     puzzle.addEdgeCost(19, 13, 21);
+    
+}
+
+void GraphTester :: testGraphs()
+{
+    setup();
+    compareTraversals();
+    findCheapestTraversal();
+}
+
+void GraphTester :: compareTraversals()
+{
+    for (int i = 0; i < puzzle.size(); i++)
+    {
+        cout << "The index of the bread is: " << i << endl;
+        puzzle.breadthFirstTraversal(puzzle, i);
+        cout << "The index of the depth is: " << i << endl;
+        puzzle.depthFirstTraversal(puzzle, i);
+    }
+}
+
+void GraphTester :: findCheapestTraversal()
+{
     
 }
