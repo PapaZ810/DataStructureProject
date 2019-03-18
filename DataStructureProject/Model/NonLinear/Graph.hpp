@@ -248,7 +248,7 @@ void Graph<Type> :: breadthFirstTraversal(Graph<Type> & currentGraph, int vertex
         {
             if(!visited[*setIterator])
             {
-//                visited[*setIterator];
+                visited[*setIterator] = true;
                 cout << currentGraph[*setIterator] << endl;
                 vertexQueue.push(*setIterator);
             }
