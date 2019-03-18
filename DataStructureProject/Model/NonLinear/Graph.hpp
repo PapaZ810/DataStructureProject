@@ -257,7 +257,7 @@ void Graph<Type> :: breadthFirstTraversal(Graph<Type> & currentGraph, int vertex
 }
 
 template <class Type>
-int Graph<Type> :: costTraversal(Graph<Type> * currentGraph, int start)
+int Graph<Type> :: costTraversal(Graph<Type> & currentGraph, int start)
 {
     assert(start >= 0 && start < vertexCount);
     int cost = 0;
