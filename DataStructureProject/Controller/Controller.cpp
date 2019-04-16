@@ -14,7 +14,8 @@ void Controller :: start()
 //    cout << "Welcome to App." << endl;
 //    usingNodes();
 //    testFiles();
-    testGraph();
+//    testGraph();
+    
 }
 
 void Controller :: usingNodes()
@@ -59,4 +60,10 @@ void Controller :: testGraph()
 {
     GraphTester lokiher;
     lokiher.testGraphs();
+}
+
+void Controller :: testTree()
+{
+    BinaryTreeTester lokhe;
+    lokhe.doTreeStuff();
 }
