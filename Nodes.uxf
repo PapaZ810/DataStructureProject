@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>8</zoom_level>
+  <zoom_level>5</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1104</x>
-      <y>304</y>
-      <w>152</w>
-      <h>80</h>
+      <x>950</x>
+      <y>240</y>
+      <w>95</w>
+      <h>50</h>
     </coordinates>
     <panel_attributes>Node&lt;Type&gt;
 --
@@ -22,10 +22,10 @@ bg=cyan</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>960</x>
-      <y>200</y>
-      <w>352</w>
-      <h>88</h>
+      <x>860</x>
+      <y>175</y>
+      <w>220</w>
+      <h>55</h>
     </coordinates>
     <panel_attributes>LinearNode&lt;Type&gt;
 --
@@ -42,10 +42,10 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1168</x>
-      <y>280</y>
-      <w>24</w>
-      <h>40</h>
+      <x>990</x>
+      <y>225</y>
+      <w>15</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -53,10 +53,10 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>776</x>
-      <y>200</y>
-      <w>176</w>
-      <h>144</h>
+      <x>745</x>
+      <y>175</y>
+      <w>110</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>Array&lt;Type&gt;
 --
@@ -77,10 +77,10 @@ bg=gray
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1088</x>
-      <y>408</y>
-      <w>176</w>
-      <h>152</h>
+      <x>940</x>
+      <y>305</y>
+      <w>110</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>/List&lt;Type&gt;/
 --
@@ -101,10 +101,10 @@ bg=red</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1240</x>
-      <y>376</y>
-      <w>24</w>
-      <h>48</h>
+      <x>1035</x>
+      <y>285</y>
+      <w>15</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -112,10 +112,10 @@ bg=red</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1280</x>
-      <y>728</y>
-      <w>200</w>
-      <h>256</h>
+      <x>1060</x>
+      <y>505</y>
+      <w>125</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>Stack&lt;Type&gt;
 --
@@ -143,10 +143,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>848</x>
-      <y>736</y>
-      <w>200</w>
-      <h>272</h>
+      <x>790</x>
+      <y>510</y>
+      <w>125</w>
+      <h>170</h>
     </coordinates>
     <panel_attributes>Queue&lt;Type&gt;
 --
@@ -180,10 +180,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1224</x>
-      <y>776</y>
-      <w>24</w>
-      <h>48</h>
+      <x>1025</x>
+      <y>535</y>
+      <w>15</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -191,10 +191,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1080</x>
-      <y>776</y>
-      <w>24</w>
-      <h>48</h>
+      <x>935</x>
+      <y>535</y>
+      <w>15</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
@@ -202,10 +202,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1272</x>
-      <y>408</y>
-      <w>192</w>
-      <h>128</h>
+      <x>1055</x>
+      <y>305</y>
+      <w>120</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>CrimeData
 --
@@ -223,10 +223,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1272</x>
-      <y>544</y>
-      <w>192</w>
-      <h>128</h>
+      <x>1055</x>
+      <y>390</y>
+      <w>120</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>Music
 --
@@ -244,10 +244,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1064</x>
-      <y>568</y>
-      <w>200</w>
-      <h>216</h>
+      <x>925</x>
+      <y>405</y>
+      <w>125</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>LinkedList&lt;Type&gt;
 --
@@ -272,10 +272,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1264</x>
-      <y>712</y>
-      <w>24</w>
-      <h>112</h>
+      <x>1050</x>
+      <y>495</y>
+      <w>15</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;120.0</additional_attributes>
@@ -283,10 +283,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1368</x>
-      <y>712</y>
-      <w>24</w>
-      <h>32</h>
+      <x>1115</x>
+      <y>495</y>
+      <w>15</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;20.0</additional_attributes>
@@ -294,10 +294,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1264</x>
-      <y>712</y>
-      <w>128</w>
-      <h>24</h>
+      <x>1050</x>
+      <y>495</y>
+      <w>80</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
@@ -305,10 +305,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1224</x>
-      <y>800</y>
-      <w>64</w>
-      <h>24</h>
+      <x>1025</x>
+      <y>550</y>
+      <w>40</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
@@ -316,10 +316,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1048</x>
-      <y>800</y>
-      <w>56</w>
-      <h>24</h>
+      <x>915</x>
+      <y>550</y>
+      <w>35</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0</additional_attributes>
@@ -327,10 +327,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1048</x>
-      <y>720</y>
-      <w>24</w>
-      <h>104</h>
+      <x>915</x>
+      <y>500</y>
+      <w>15</w>
+      <h>65</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
@@ -338,10 +338,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>944</x>
-      <y>720</y>
-      <w>128</w>
-      <h>24</h>
+      <x>850</x>
+      <y>500</y>
+      <w>80</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>140.0;10.0;10.0;10.0</additional_attributes>
@@ -349,10 +349,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>944</x>
-      <y>720</y>
-      <w>24</w>
-      <h>32</h>
+      <x>850</x>
+      <y>500</y>
+      <w>15</w>
+      <h>20</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;20.0</additional_attributes>
@@ -360,10 +360,10 @@ List Accessors
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>720</x>
-      <y>728</y>
-      <w>144</w>
-      <h>24</h>
+      <x>710</x>
+      <y>505</y>
+      <w>90</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;160.0;10.0</additional_attributes>
@@ -371,10 +371,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>728</y>
-      <w>168</w>
-      <h>72</h>
+      <x>610</x>
+      <y>505</y>
+      <w>105</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>LinearTester
 --
@@ -385,10 +385,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>384</x>
-      <y>728</y>
-      <w>168</w>
-      <h>72</h>
+      <x>500</x>
+      <y>505</y>
+      <w>105</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>TreeTester
 --
@@ -399,10 +399,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>384</x>
-      <y>808</y>
-      <w>168</w>
-      <h>72</h>
+      <x>500</x>
+      <y>555</y>
+      <w>105</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>GraphTester
 --
@@ -413,10 +413,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>808</y>
-      <w>168</w>
-      <h>72</h>
+      <x>610</x>
+      <y>555</y>
+      <w>105</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>HashableTester
 --
@@ -427,10 +427,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>560</x>
-      <y>888</y>
-      <w>168</w>
-      <h>72</h>
+      <x>610</x>
+      <y>605</y>
+      <w>105</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>AlgorithmTester
 --
@@ -440,10 +440,10 @@ List Accessors
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>712</x>
-      <y>384</y>
-      <w>368</w>
-      <h>152</h>
+      <x>705</x>
+      <y>290</y>
+      <w>230</w>
+      <h>95</h>
     </coordinates>
     <panel_attributes>DoubleNode&lt;Type&gt;
 --
@@ -466,10 +466,10 @@ transparency=0
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>872</x>
-      <y>360</y>
-      <w>248</w>
-      <h>24</h>
+      <x>805</x>
+      <y>275</y>
+      <w>155</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>290.0;10.0;10.0;10.0</additional_attributes>
@@ -477,10 +477,10 @@ transparency=0
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>872</x>
-      <y>360</y>
-      <w>24</w>
-      <h>40</h>
+      <x>805</x>
+      <y>275</y>
+      <w>15</w>
+      <h>25</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
@@ -488,10 +488,10 @@ transparency=0
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>488</x>
-      <y>384</y>
-      <w>216</w>
-      <h>224</h>
+      <x>565</x>
+      <y>290</y>
+      <w>135</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>CircularList&lt;Type&gt;
 --
@@ -517,10 +517,10 @@ bg=#40E0D0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>792</x>
-      <y>352</y>
-      <w>24</w>
-      <h>48</h>
+      <x>755</x>
+      <y>270</y>
+      <w>15</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -528,10 +528,10 @@ bg=#40E0D0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>584</x>
-      <y>352</y>
-      <w>232</w>
-      <h>24</h>
+      <x>625</x>
+      <y>270</y>
+      <w>145</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;10.0;270.0;10.0</additional_attributes>
@@ -539,10 +539,10 @@ bg=#40E0D0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>584</x>
-      <y>352</y>
-      <w>24</w>
-      <h>48</h>
+      <x>625</x>
+      <y>270</y>
+      <w>15</w>
+      <h>30</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
     <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
@@ -550,10 +550,10 @@ bg=#40E0D0</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>0</x>
-      <y>240</y>
-      <w>472</w>
-      <h>472</h>
+      <x>260</x>
+      <y>200</y>
+      <w>295</w>
+      <h>295</h>
     </coordinates>
     <panel_attributes>NonLinear :: Graph
 --
@@ -599,10 +599,10 @@ bg=pink</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1320</x>
-      <y>200</y>
-      <w>272</w>
-      <h>192</h>
+      <x>1085</x>
+      <y>175</y>
+      <w>170</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>BinaryTreeNode&lt;Type&gt;
 --
@@ -626,12 +626,62 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1248</x>
-      <y>336</y>
-      <w>88</w>
-      <h>24</h>
+      <x>1040</x>
+      <y>260</y>
+      <w>55</w>
+      <h>15</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>210</x>
+      <y>505</y>
+      <w>285</w>
+      <h>310</h>
+    </coordinates>
+    <panel_attributes>BinarySearchTree&lt;Type&gt;
+--
+*Structure*
++ BinarySearchTree() : Constructor
++ ~BinarySearchTree() : Destructor
+# destroyTree() : void
+
+*Information Methods*
++ getSize() : int
++ getHeight() : int
++ isComplete() : bool
++ isBalanced() : bool
++ getRoot() : BinaryTreeNode&lt;Type&gt;*
+
+*Recursive Information*
+# calculateSize(BinaryTreeNode&lt;Type&gt;* startNode) : int
+# calculateHeight(BinaryTreeNode&lt;Type&gt;* startNode) : int
+# isBalanced(BinarySearchTreeNode&lt;Type&gt;* startNode, int index, int size) : bool
+# isComplete(BinaryTreeNode&lt;Type&gt;* startNode, int index, int size) : bool
+
+*Data Methods*
++ insert(Type) : void
++ contains(Type) : bool
++ remove(Type) : void
+
+*Recursive Data Helpers*
+# removeNode(BinaryTreeNode&lt;Type&gt;* removeMe) : void
+
+*Traversals*
++ inOrderTraversal() : void
++ perOrderTraversal() : void
++ postOrderTraversal() : void
+
+*Recursive Traversal Helpers*
+# inOrderTraversal(BinaryTreeNode&lt;Type&gt;* inStart) : void
+# preOrderTraversal(BinaryTreeNode&lt;Type&gt;* preStart) : void
+# postOrderTraversal(BinaryTreeNdoe&lt;Type&gt;* postStart) : void
+# getRightMostChild(BinaryTreeNode&lt;Type&gt; *current) : BinaryTreeNode&lt;Type&gt;*
+# getLeftMostChild(BinaryTreeNode&lt;Type&gt; *current) : BinaryTreeNode&lt;Type&gt;*
+bg=green</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>

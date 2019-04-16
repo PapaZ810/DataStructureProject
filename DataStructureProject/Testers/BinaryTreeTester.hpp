@@ -10,15 +10,15 @@
 #define BinaryTreeTester_hpp
 
 #include "../Model/Nodes/BinaryTreeNode.h"
-//#include "../Model/NonLinear/BinarySearchTree.hpp"
+#include "../Model/NonLinear/BinarySearchTree.hpp"
 
 class BinaryTreeTester
 {
 private:
     BinaryTreeNode<int> testNode;
-    //BinarySearchTree<int> testNode;
+    BinarySearchTree<int> testTree;
 public:
-    void treeStuff();
+    void doTreeStuff();
 };
 
 #endif /* BinaryTreeTester_hpp */
