@@ -62,13 +62,17 @@ public:
 template <class Type>
 int BinarySearchTree<Type> :: getHeight()
 {
-    return - 1;
+    
 }
 
 template <class Type>
 int BinarySearchTree<Type> :: getSize()
 {
-    return - 1;
+    int size = 0;
+    
+    size += calculateSize(this->root);
+    
+    return size;
 }
 
 template <class Type>
