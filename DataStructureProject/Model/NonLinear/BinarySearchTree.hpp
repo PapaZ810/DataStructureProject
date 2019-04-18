@@ -6,8 +6,8 @@
 //  Copyright © 2019 CTEC. All rights reserved.
 //
 
-#ifndef BinarySearhTree_h
-#define BinarySearhTree_h
+#ifndef BinarySearhTree_hpp
+#define BinarySearhTree_hpp
 
 
 #include "Tree.hpp"
@@ -141,7 +141,7 @@ bool BinarySearchTree<Type> :: isBalanced(BinaryTreeNode<Type> * current)
     bool leftBalanced = isBalanced(current->getLeftChild());
     bool rightBalanced = isBalanced(current->getRightChild());
     
-    if(heightDifference <=1 && leftBalanced && rightBalanced)
+    if(heightDifference <= 1 && leftBalanced && rightBalanced)
     {
         return true;
     }
@@ -244,15 +244,112 @@ void BinarySearchTree<Type> :: insert(Type itemToInsert)
 }
 
 template <class Type>
-bool BinarySearchTree<Type> :: contains(Type value)
+bool BinarySearchTree<Type> :: contains(Type itemToFind)
 {
-    
+    BinaryTreeNode<Type> * current = this->root;
+    if(current == nullptr)
+    {
+        return false;
+    }
+    else
+    {
+        while(current != nullptr)
+        {
+            if(itemToFind == current->getData())
+            {
+                return true;
+            }
+            else if(itemToFind < current->getData())
+            {
+                current = current->getLeftNode();
+            }
+            else
+            {
+                current = current->getRightNode();
+            }
+        }
+        return false;
+    }
 }
 
 template <class Type>
-void BinarySearchTree<Type> :: remove(Type item)
+void BinarySearchTree<Type> :: remove(Type getRidOfMe)
 {
+    if(this->root == nullptr)
+    {
+        cout << "EMpty tree so removal is not possible" << endl;
+    }
+    else
+    {
+        BinaryTreeNode<Type> * current = this->root;
+        BinaryTreeNode<Type> * previous = nullptr;
+        bool hasBeenFound = false;
+        
+        while (current != nullptr && !hasBeenFound)
+        {
+            if(current->getData() == getRidOfMe)
+            {
+                hasBeenFound = true;
+            }
+            else
+            {
+                previous = current;
+                if(getRidOfMe < current->getData())
+                {
+                    current = current->getLeftNode();
+                }
+                else
+                {
+                    current = current->getRightNode();
+                }
+            }
+        }
+        if(current == nullptr)
+        {
+            cerr << "Item not found, removal unsuccesful" << endl;
+        }
+        else if(hasBeenFound)
+        {
+            if(current == this->root)
+            {
+                removeNode(this->root);
+            }
+            else if(getRidOfMe < previous->getData())
+            {
+                removeNode(previous->getLeftNode());
+            }
+            else
+            {
+                removeNode(previous->getRightNode());
+            }
+        }
+    }
+}
+
+template <class Type>
+void BinarysearchTree<Type> :: removeNode(BinaryTreeNode<Type> * removeMe)
+{
+    BinaryTreeNode<Type> * current;
+    BinaryTreeNode<Type> * previous;
+    BinaryTreeNode<Type> * temp;
     
+    previous = removeMe->getRootNode();
+    
+    if(removeMe->getRightNode() == nullptr && removeMe->getLeftNode() == previous)
+    {
+        temp = removeMe;
+        removeMe = nullptr;
+        
+        if(previous != nullptr && removeMe->getData() < previous->getData())
+        {
+            previous->setLeftNode(removeMe);
+        }
+        else if(previous != nullptr && removeMe->getData() > previous->getData())
+        {
+            previous->setRightNode(removeMe);
+        }
+        delete temp;
+    }
 }
 
 
