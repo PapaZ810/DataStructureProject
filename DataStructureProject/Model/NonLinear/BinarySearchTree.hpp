@@ -350,6 +350,23 @@ void BinarysearchTree<Type> :: removeNode(BinaryTreeNode<Type> * removeMe)
         }
         delete temp;
     }
+    //Node only has a left child
+    else if(removeMe->getRightNode() == nullptr)
+    {
+        temp = removeMe;
+        removeMe = removeMe->getLeftNode();
+        
+        if(previous != nullptr && temp->getData() < previous->getData())
+        {
+            revious->setLeftNode(removeMe);
+        }
+        else if(previous !!= nullptr && removeMe->getData() > previous->getData())
+        {
+            previous->setRightNode(removeMe);
+        }
+        removeMe->setRootNode(removeMe);
+        delete temp;
+    }
 }
 
 
