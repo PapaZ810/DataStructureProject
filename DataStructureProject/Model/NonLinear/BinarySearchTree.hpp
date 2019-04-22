@@ -66,6 +66,7 @@ int BinarySearchTree<Type> :: calculateSize(BinaryTreeNode<Type> * current)
     {
         return calculateSize(current->getLeftChild()) + calculateSize(current->getRightChild()) + 1;
     }
+    return 0;
 }
 
 
@@ -82,6 +83,7 @@ int BinarySearchTree<Type> :: calculateHeight(BinaryTreeNode<Type> * current)
     {
         return max(calculateHeight(current->getLeftChild()), calculateHeight(current->getRightChild())) + 1;
     }
+    return 0;
 }
 
 template <class Type>
@@ -115,6 +117,7 @@ bool BinarySearchTree<Type> :: isComplete(BinaryTreeNode<Type> * startNode, int 
     {
         return false;
     }
+    return (isComplete(startNode->getLeftChild(), 2 * index + 1, size) && isComplete(startNode->getRightChild(), 2* index + 2, size));
 }
 
 template <class Type>
@@ -327,7 +330,7 @@ void BinarySearchTree<Type> :: remove(Type getRidOfMe)
 }
 
 template <class Type>
-void BinarysearchTree<Type> :: removeNode(BinaryTreeNode<Type> * removeMe)
+void BinarySearchTree<Type> :: removeNode(BinaryTreeNode<Type> * removeMe)
 {
     BinaryTreeNode<Type> * current;
     BinaryTreeNode<Type> * previous;
@@ -358,9 +361,9 @@ void BinarysearchTree<Type> :: removeNode(BinaryTreeNode<Type> * removeMe)
         
         if(previous != nullptr && temp->getData() < previous->getData())
         {
-            revious->setLeftNode(removeMe);
+            previous->setLeftNode(removeMe);
         }
-        else if(previous !!= nullptr && removeMe->getData() > previous->getData())
+        else if(previous != nullptr && removeMe->getData() > previous->getData())
         {
             previous->setRightNode(removeMe);
         }

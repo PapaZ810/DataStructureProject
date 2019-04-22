@@ -9,7 +9,7 @@
 #ifndef Tree_h
 #define Tree_h
 
-#include "../Nodes/BinaryTreeNode.h"
+#include "../Nodes/BinaryTreeNode.hpp"
 
 template <class Type>
 class Tree
