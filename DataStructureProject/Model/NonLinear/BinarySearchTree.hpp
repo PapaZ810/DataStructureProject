@@ -60,6 +60,12 @@ public:
 };
 
 template <class Type>
+Tree<Type> :: BinarySearchTree<Type>()
+{
+    current = nullptr;
+}
+
+template <class Type>
 int BinarySearchTree<Type> :: calculateSize(BinaryTreeNode<Type> * current)
 {
     if(current != nullptr)

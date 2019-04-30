@@ -45,6 +45,7 @@
 		CD0BB3A521FF91370080FFA3 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		CD33EB262202278E004B510E /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		CD33EB272202394E004B510E /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		CD47D7ED2278C1B50090FDD0 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		CD4F754D2214AEDB000C554C /* LinearTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearTester.cpp; sourceTree = "<group>"; };
 		CD4F754E2214AEDB000C554C /* LinearTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearTester.hpp; sourceTree = "<group>"; };
 		CD5E02FB22664A6A00DA32ED /* BinarySearchTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinarySearchTree.hpp; sourceTree = "<group>"; };
@@ -200,6 +201,7 @@
 				CD64ABE9223066BD00DDF3E2 /* Graph.hpp */,
 				CD92F5FF2261227B00A75EF9 /* Tree.hpp */,
 				CD5E02FB22664A6A00DA32ED /* BinarySearchTree.hpp */,
+				CD47D7ED2278C1B50090FDD0 /* AVLTree.hpp */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
