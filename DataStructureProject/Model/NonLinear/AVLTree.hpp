@@ -55,13 +55,80 @@ void AVLTree<Type> :: remove(Type item)
 template <class Type>
 BinaryTreeNode<Type> * AVLTree<Type> :: insertNode(BinaryTreeNode<Type> * parent, Type inserted)
 {
-    
+    if(parent == nullptr)
+    {
+        parent = new BinaryTreeNode<Type>(inserted);
+        
+        if(this->getRoot() == nullptr)
+        {
+            this->setRoot(parent);
+        }
+        return parent;
+    }
+    else if(inserted < parent->getData())
+    {
+        parent->setLeftChild(insertNode(parent-getLeftChild(), inserted));
+        parent = balanceSubTree(parent);
+    }
+    else if(inserted > parent->getData())
+    {
+        parent->setRightChild(insertNode(parent->getRightChild(), inserted));
+        parent = balanceSubTree(parent);
+    }
+    return parent;
 }
 
 template <class Type>
 BinaryTreeNode<Type> * AVLTree<Type> :: removeNode(BinaryTreeNode<Type> * parent, Type inserted)
 {
+    if(parent == nullptr)
+    {
+        return parent;
+    }
+    if(inserted < parent->getData())
+    {
+        parent->setLeftChild(removeNode(parent->getLeftChild(), inserted));
+    }
+    else if(inserted > parent->getData())
+    {
+        parent->setRightChild(removeNode(parent->getRightChild(), inserted));
+    }
+    else
+    {
+        BinaryTreeNode<Type> * temp;
+        if(parent->getLeftChild() == nullptr && parent->getRightChild() == nullptr)
+        {
+            temp = parent;
+            delete temp;
+        }
+        else if(parent->getLeftChild() == nullptr)
+        {
+            *parent = *parent->getRightchidl();
+        }
+        else if(parent->getRightChild() == nullptr)
+        {
+            *parent = *parent->getLeftChild();
+        }
+        else
+        {
+            BianryTreeNode<Type> * leftMost = this->getLeftMostChild(parent->getRightChild);
+            parent->setDataleftMost->getData());
+            parent->setRightChild(removeNode(parent->getRightChild(), inserted));
+        }
+    }
+    
+    if(parent == nullptr)
+    {
+        return parent;
+    }
+    
+    return balanceSubTree(parent);
+}
 
+template <class Type>
+int AVLTree<Type> :: heightDifference(BinaryTreeNode<Type> * node)
+{
+    
 }
 
 #endif /* AVLTree_h */
